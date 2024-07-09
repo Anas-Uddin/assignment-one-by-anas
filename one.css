@@ -23,7 +23,7 @@ body{
 #header-tagline{
     font-size: 48px;
     font-weight: 800;
-    margin-top: 100px;
+    margin-top: 69px;
     margin-left: 190px;
     text-align: center;
     width: 998px;
@@ -38,9 +38,26 @@ body{
     margin-left: 280px;
 }
 #contact-btn{
-    color: white;
-    background-color: rgb(30, 29, 29);
-    display: block;
-    margin: auto;
+    position: relative;
     cursor: pointer;
+    margin: auto;
+    font-size: 18px;
+    padding: 10px;
+    display: block;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    background-color: black;
+    color: white;
+}
+#contact-btn:hover{
+    position: relative;
+    cursor: pointer;
+    margin: auto;
+    font-size: 19px;
+    padding: 9px;
+    display: block;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    background-color: rgb(41, 40, 40);
+    color: aliceblue;
 }
