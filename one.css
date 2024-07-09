@@ -1,0 +1,46 @@
+/* banner style  */
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    font-family: "Azeret Mono", monospace;
+}
+body{
+    width: 100%;
+}
+.banner{
+    display: flex;
+}
+#banner-bg{
+    position: absolute;
+    max-width: 1440px;
+    height: 652px;
+}
+#cartoon-coder{
+    left: 580.67px;
+    top: 40px;
+    position: relative;
+    z-index: 1;
+}
+#header-tagline{
+    font-size: 48px;
+    font-weight: 800;
+    margin-top: 100px;
+    margin-left: 190px;
+    text-align: center;
+    width: 998px;
+    height: 136px;
+}
+#p1{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    width: 852px;
+    height: 52px;
+    margin-left: 280px;
+}
+#contact-btn{
+    color: white;
+    background-color: rgb(30, 29, 29);
+    display: block;
+    margin: auto;
+    cursor: pointer;
+}
