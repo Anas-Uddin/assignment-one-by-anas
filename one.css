@@ -47,6 +47,7 @@
     margin-bottom: 30px;
     background-color: black;
     color: white;
+    border-radius: 3px;
 }
 #contact-btn:hover{
     position: relative;
@@ -59,4 +60,107 @@
     margin-bottom: 30px;
     background-color: rgb(41, 40, 40);
     color: aliceblue;
+    border-radius: 7px;
+}
+/* main style  */
+#main-section1{
+    margin-top: 100px;
+    background-color: rgb(241, 238, 238);
+}
+.first-main-section{
+    text-align: center;
+    color: rgba(13, 19, 33, 0.7);
+}
+#why-web-dev{
+    padding: 20px;
+}
+#why-web-dev-p{
+    margin-left: 150px;
+    margin-right: 150px;
+    padding-bottom: 40px;
+}
+.main-section2-3-4{
+    display: flex;
+    justify-content: space-between;
+}
+.left-side{
+    margin-top: 50px;
+    padding: 10px;
+    width: 100%;
+}
+.right-side{
+    width: 60%;
+    margin-top: 100px;
+    margin-left: 500px;
+}
+#right-side2{
+    margin-left: 100px;
+    /* this will show on left side  */
+}
+#left-side2{
+    margin-right: 250px;
+    padding-top: 20px;
+    /* this will show on right side  */
+}
+main{
+    margin: 100px;
+}
+.my-inspiration{
+    text-align: center;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+#my-inspiration-h2{
+    font-size: 32px;
+    font-weight: 800;
+}
+#my-inspiration-p{
+    width: 852px;
+    font-size: 16px;
+    font-weight: 400;
+}
+#skill-div{
+    background-color: rgb(241, 235, 225);
+    width: 364px;
+    height: 299px;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: center;
+    padding: 50px;
+    border-radius: 7px;
+}
+.skill-item-button{
+    border: none;
+    text-decoration: underline;
+}
+#skill-section{
+    display: flex;
+    gap: 20px;
+    
+}
+/* footer style  */
+#footer-section1{
+    display: grid;
+}
+footer section img{
+    border-radius: 7px;
+    margin: auto;
+    width: 1140px;
+}
+#footer-section2{
+    margin-top: 50px;
+    background-color: antiquewhite;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-icon{
+    padding-top: 10px;
+    width: 36.86px;
+    height: 35.95px;
 }
