@@ -137,30 +137,52 @@ main{
 .skill-item-button{
     border: none;
     text-decoration: underline;
+    cursor: pointer;
 }
 #skill-section{
     display: flex;
     gap: 20px;
     
 }
-/* footer style  */
-#footer-section1{
+
+#before-footer-section1{
     display: grid;
 }
-#footer-img1{
+#before-footer-img1{
     position: absolute;
     left: 10%;
     border-radius: 7px;
     width: 1140px;
 }
-.footer-text{
+.before-footer-text{
     position: relative;
     z-index: 1;
     text-align: center;
     color: aliceblue;
     padding-top: 35px;
 }
-
+#before-footer-input-text{
+    width: 400px;
+    height: 25px;
+    border-radius: 7px;
+}
+#before-footer-input-submit{
+    height: 30px;
+    width: 300px;
+    color: black;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 7px;
+    cursor: pointer;
+}
+#before-footer-div1{
+    display: flex;
+    z-index: 1;
+    justify-content: center;
+    margin-top: 50px;
+}
+/* footerr styling  */
 #footer-section2{
     position: relative;
     margin-top: 160px;
@@ -173,24 +195,4 @@ main{
     padding-top: 10px;
     width: 36.86px;
     height: 35.95px;
-}
-#footer-input-text{
-    width: 400px;
-    height: 25px;
-    border-radius: 7px;
-}
-#footer-input-submit{
-    height: 30px;
-    width: 300px;
-    color: black;
-    text-align: center;
-    font-size: 16px;
-    font-weight: 600;
-    border-radius: 7px;
-}
-#footer-div1{
-    display: flex;
-    z-index: 1;
-    justify-content: center;
-    margin-top: 50px;
 }
