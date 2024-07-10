@@ -147,13 +147,23 @@ main{
 #footer-section1{
     display: grid;
 }
-footer section img{
+#footer-img1{
+    position: absolute;
+    left: 10%;
     border-radius: 7px;
-    margin: auto;
     width: 1140px;
 }
+.footer-text{
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    color: aliceblue;
+    padding-top: 35px;
+}
+
 #footer-section2{
-    margin-top: 50px;
+    position: relative;
+    margin-top: 160px;
     background-color: antiquewhite;
     padding: 15px;
     display: flex;
@@ -163,4 +173,24 @@ footer section img{
     padding-top: 10px;
     width: 36.86px;
     height: 35.95px;
+}
+#footer-input-text{
+    width: 400px;
+    height: 25px;
+    border-radius: 7px;
+}
+#footer-input-submit{
+    height: 30px;
+    width: 300px;
+    color: black;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 7px;
+}
+#footer-div1{
+    display: flex;
+    z-index: 1;
+    justify-content: center;
+    margin-top: 50px;
 }
